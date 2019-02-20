@@ -216,7 +216,10 @@ body {
     border: 0 none;
   }
 
-  @media only screen and (min-width:981px) and (max-width: 1440px){body {background-color:black}}
-  @media only screen and (min-width: 769px) and (max-width: 980px){body {background-color:green}}
-  @media only screen and (min-width: 641px) and (max-width: 768px){body {background-color: red }}
-  @media only screen and (max-width:640px){body{background-color:yellow} #masthead{position: static}}
+  
+  
+  @media only screen and (max-width: 980px){body {background-color:green}}
+  @media only screen and (max-width: 768px){body {background-color: red }}
+  @media only screen and (max-width:640px){body{background-color:yellow;}#logo{width: 100%};}
+ 
+  
